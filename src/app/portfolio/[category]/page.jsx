@@ -14,7 +14,7 @@ const Category = ({ params }) => {
                     <Button text="See More" url="#" />
                 </div>
                 <div className={styles.imgContainer}>
-                    <Image className={styles.img} fill={true} src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                    <Image className={styles.img} fill={true} src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600" alt='' />
                 </div>
             </div>
             <div className={styles.item}>
@@ -24,7 +24,7 @@ const Category = ({ params }) => {
                     <Button text="See More" url="#" />
                 </div>
                 <div className={styles.imgContainer}>
-                    <Image className={styles.img} fill={true} src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                    <Image className={styles.img} fill={true} src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600" alt='' />
                 </div>
             </div>
             <div className={styles.item}>
@@ -34,7 +34,7 @@ const Category = ({ params }) => {
                     <Button text="See More" url="#" />
                 </div>
                 <div className={styles.imgContainer}>
-                    <Image className={styles.img} fill={true} src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                    <Image className={styles.img} fill={true} src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600" alt='' />
                 </div>
             </div>
             <div className={styles.item}>
@@ -44,7 +44,7 @@ const Category = ({ params }) => {
                     <Button text="See More" url="#" />
                 </div>
                 <div className={styles.imgContainer}>
-                    <Image className={styles.img} fill={true} src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                    <Image className={styles.img} fill={true} src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600" alt='' />
                 </div>
             </div>
         </div>
