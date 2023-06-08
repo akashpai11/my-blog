@@ -10,11 +10,24 @@
     font-size: 22px;
 }
 
+.logo:hover {
+    color: #53c28b;
+
+}
+
 .links {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
+.link:focus,
+.link:hover {
+    color: #53c28b;
+    border-bottom: 1px solid #53c28b;
+    margin-top: 1px;
+}
+
 
 .logout {
     padding: 5px;
