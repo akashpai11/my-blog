@@ -7,6 +7,7 @@ import Link from 'next/link'
 async function getData() {
 
     try {
+        //const { data, mutate, error, isLoading } = useSWR(`/api/posts?username=${session.data?.user?.name}`, fetcher)
         const res = await fetch("http://localhost:3000/api/posts", { cache: "no-store" });
         let result = await res.json()
         return result

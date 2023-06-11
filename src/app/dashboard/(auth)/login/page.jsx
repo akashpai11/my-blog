@@ -14,7 +14,7 @@ const Login = () => {
     }
 
     if (session.status === 'authenticated') {
-        router?.push('/dashboard ')
+        router?.push('/dashboard')
     }
 
     const handleSubmit = async (e) => {
